@@ -1,0 +1,17 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/IshmamR/capstone.git",
+  "author": "IshmamR <ishmam785@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "authors:mkdir": "cd authors; node mkdir.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6"
+  }
+}
